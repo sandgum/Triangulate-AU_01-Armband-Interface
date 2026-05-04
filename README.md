@@ -22,6 +22,17 @@ A sci-fi-style armband interface running Android 14 on a Rockchip RK3576 module 
 
 ## Electronics
 
+### Features
+* PCIe x1 slot for NVMe SSD
+* HDMI 2.1 port for display
+* Two USB-C ports
+* Port 1: USB-2.0, USB-PD-3.1 sink (Max. 20V) (for battery charging)
+* Port 2: USB-3.0 SuperSpeed, USB-2.0, 5V 3A BC1.2 source (for peripherals)
+* Approx. 60W battery charging via BQ25798
+* Audio digital signal processing via ADAU1701
+* 20W PAM8320 amplifier (for subwoofer)
+* 2x 2W PAM8302 amplifiers (for L/R channels)
+
 ### PCB Schematics
 
 <img width="1307" height="898" alt="Screenshot 2026-04-28 at 11 33 23 am" src="https://github.com/user-attachments/assets/252f6e56-6bf4-4509-973a-8ca0600c1933" />
@@ -30,11 +41,15 @@ A sci-fi-style armband interface running Android 14 on a Rockchip RK3576 module 
 
 <img width="1291" height="887" alt="Screenshot 2026-04-28 at 11 33 39 am" src="https://github.com/user-attachments/assets/f8cbe3d5-6197-490e-8363-54a6d46c370e" />
 
-*USB-C Ports (Port 1: PD sink + USB2.0, Port 2: BC1.2 Source + USB3.1)*
+*USB-C Ports*
 
 <img width="1287" height="888" alt="Screenshot 2026-04-28 at 11 33 50 am" src="https://github.com/user-attachments/assets/4d16b037-ef7c-4665-87ca-f047b7238350" />
 
 *Battery Charger Circuit*
+
+<img width="1325" height="916" alt="Screenshot 2026-05-04 at 12 30 20 pm" src="https://github.com/user-attachments/assets/507fc592-f358-47f4-986a-b8c195c5b820" />
+
+*Audio System Circuit*
 
 ### PCB Layout (Coming Soon!)
 
